@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro</title>
+	<style type="text/css">
+		
+		body {
+			font-family: Times New Roman;
+            background-image: url("fundo_azul-filtered.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            width:100%;
+            margin: 0px;
+            margin-left: 5px;
+            background-attachment: fixed;
+
+		}
+
+        a{
+            font-size: 200%;
+            box-shadow: 50px;
+            padding-left: 5px;
+        }
+
+		.box {
+            margin-left: 500px;
+			border-radius: 5px;
+			border:1px solid black;
+			height: 550px;
+			max-width: 500px;
+            box-shadow: 10px 10px 10px 10px black;
+            background-color: gray;
+
+			}
+
+        .numero1{
+            color: black;
+            font-size: 200%;
+            text-align: center;
+        }    
+
+	    div {
+	    	margin: 30px;
+	    }
+
+	    label {
+	    	color: black;
+            text-align: center;
+	    }	
+
+	    input {
+	    	width: 100%;
+			height: 20px;
+			margin-top: 5px;
+            background-color: white;
+            border-radius: 3px;
+	    }
+
+        textarea {
+            width: 70%;
+            height: 100px;
+            margin-top: 5px;
+            background-color: white;
+            border-radius: 3px;
+            margin-left: 75px;
+
+        }
+	    
+	    .button {
+	    	background-color: #E6E6E6;
+	    }
+
+	</style>
+</head>
+
+<body>
+
+    <div>
+
+    <a href="home.html">Página Inicial</a>
+    |
+    <a href="programacao.html">Programação</a>
+    |
+    <a href="analisar.html">Analise</a>
+    <hr>
+    </div>
+ 
+       <p class="numero1"> Faça seu login e deixe sua critica sobre um filme, que deixaremos em nosso site</p>
+
+    <div class="box">
+    	
+    	<form>
+    		<div>
+    			<label for="user">User:</label>
+    			<input id="user" name="user" type="text" placeholder="Digite seu user" required accept="1"></input>
+    		</div>
+
+    		<div>
+    			<label for="email">E-mail:</label>
+    			<input id="email" name="email" type="text" placeholder="nome@email.com" required accept="3"></input>
+    		</div>
+
+    		<div>
+    			<label for="senha">Senha:</label>
+    			<input type="password" name="senha" id="senha" placeholder="Escolha uma senha" required minlength="6" accept="4">
+    		</div>
+
+    		<div>
+    			<label for="senha">Confirmar senha:</label>
+    			<input type="password" name="senha" id="senha" placeholder="Confirme sua senha" required minlength="6" accept="5">
+    		</div>
+
+            <label for="Observaçoes"></label><br>
+            <textarea rows="5" cols="40" name="Observaçoes" id="Observaçoes"></textarea>
+
+    		<div class="button">
+				<input class="button" type="submit" value="Enviar" accept="8">
+			</div>
+    		
+    	</form>
+    </div>
+
+</body>
+
+</html>
