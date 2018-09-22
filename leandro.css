@@ -2,8 +2,18 @@
 	margin-top: 15px;
     width: 1000px;
     height: 100%;
-    margin-left: 170px;
+    margin-left: 300px;
     text-align: justify;
     font-size: 150%;
     color: black;
+}
+.leandro {
+    margin-top: 15px;
+    width: 900px;
+    height: 100%;
+    text-align: justify;
+    font-size: 150%;
+    color: #c417ce;
+    border: 5px solid;
+    border-color: blue;
 }
