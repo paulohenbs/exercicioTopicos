@@ -1,0 +1,75 @@
+git init - Esse comando foi dado para adicionar um repositório;
+
+git add . - Esse comando foi dado para adcionar os arquivos do repositório;
+
+git status - Esse comando foi dado para verificar a situação do processamento;
+
+git commit -m "Adicionando os arquivos" - Esse comando foi dado para comitar os arquivos;
+
+git status - Esse comando foi dado para verificar a situação;
+
+git remote add origin https://github.com/paulohenbs/exercicioTopicos - Foi dado o comando para apontar os novos arquivos no github
+git push origin master - Esse comando foi dado para adicionar os arquivos no GitHub do Paulo;
+
+git add . - Esse comando foi feito para rastrear os arquivos
+
+git commit -m - Esse comanbdo foi feito para adicionar mudanças nos arquivos
+
+git remoter add origin2 master - Esse comando foi feito para adicionar no link o git hub do Paulo
+
+git push origin2 master - para adicionar no git hub
+
+git config --global user.name "Paulo Henrique" - Foi dado esse comando para identificar na nova máquina
+
+git config --global user.email paulohenrique.barbosa@outlook.com - Foi dado esse comando para identificar na nova máquina
+
+git clone https://github.com/paulohenbs/exercicioTopicos - Foi dado o comando para clonar os arquivos na nova máquina
+
+cd exercicioTopicos - Foi dado o comando para entrar na pasta onde encontra-se os arquivos
+
+ls - foi dado o comando para verificar os arquivos
+
+git init - Foi dado o comando para criar o repositório 
+
+git status - Foi dado o comando para verificar os novos arquivos
+
+git add sobre.html - Foi dado para rastrear o arquivo
+
+git status - Para verificar a situação
+
+git commit -m "Foi feito alteração na biografia na página sobre nós" - Foi dado esse comando para inserir citação
+
+git add ti1.jpg - Foi dado para rastrear o novo arquivo
+
+git commit -m "Inserindo nova imagem para a página sobre nós" - Foi dado o comando para inserir a citação
+
+git remote add origin3 https://github.com/paulohenbs/exercicioTopicos - Foi dado o comando para apontar os novos arquivos no github
+
+git status - foi dado o comando para verificar a situação
+
+git push origin3 master - foi dado o comando para enviar a alteração no github
+
+git init - para criar um repositório
+
+git clone - para clonar os arquivos
+
+cd exercicioTopicos - para emtrar na pasta dos arquivos
+
+git status - para verificar os arquivos modificado
+
+git add . - para rastrear os arquivos
+
+git commit -m "Foi feito um novo css" - foi dado esse comando para inserir citação
+
+git push origin master - foi dado o comando para adicionar no github as alterações
+
+git revert --no-edit - foi dado o comando para voltar há versão anterior
+
+git status - para verificar a situação
+
+git add . - para rastrear os novos arquivos
+
+git commit "mais uma vez foi alterado o css, agora vai" - foi dado o comando para inserir citação
+
+git push origin master - foi dado o comando para adicionar novas alterações e arquivos no github
+
